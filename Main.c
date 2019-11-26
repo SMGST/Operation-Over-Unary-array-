@@ -1,3 +1,7 @@
+/*          AUTHOR
+        Mohammad Tamim Sarker
+            CSE Student 
+        Faridpur Engineering College    */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,7 +18,6 @@ void scan(Array*);                //--------------O(n)
 void declare(Array*);             //--------------O(1)
 void declare_and_scan(Array*);    //--------------O(n)
 void swap(int *,int *);           //--------------O(1)
-
 
 void exclude_include(Array *);        //----------O(n^3)
 void execute_append(Array *);     //--------------O(n)
