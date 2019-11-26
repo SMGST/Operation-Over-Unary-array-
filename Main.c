@@ -79,7 +79,7 @@ void main()
         printf("2.excluding & including\n");
         printf("3.Mathematical Operation\n");
         printf("4.Change Order\n");
-        printf("0.Back\n");
+        printf("0.Exit\n");
 
         scanf("%d",&op);
         if(op > 4) {printf("Wrong option\n");}
@@ -603,14 +603,12 @@ void reverse_copy(Array* from,Array* to)
         to->A[i] = from->A[j];
     }
 }
-
 void swap(int *x,int *y)
 {
     int temp=*x;
     *x=*y;
     *y=temp;
 }
-
 int Get(Array arr,int index)
 {
     if(index>=0 && index<arr.length)return arr.A[index];
@@ -693,7 +691,6 @@ int linear_search(Array* arr,int num)
     }
     return -1;
 }
-
 int Delete(Array* arr,int index)
 {
     int x = 0 ,i,l = arr->length-1;
@@ -784,7 +781,7 @@ void declare(Array* a)
 void scan(Array* arr)
 {
     int i,n;
-    printf("Enter number of Time Want to input:");
+    printf("Enter number of Time do you Want to input initially:");
     scanf("%d",&n);
 
     printf("Enter %d element :",n);
